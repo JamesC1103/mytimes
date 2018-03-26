@@ -1,3 +1,5 @@
+/* header */
+
 header {
   display: flex;
   align-items: center;
@@ -33,12 +35,32 @@ header nav {
 
 nav span {
   display: inline-block;
-  list-style: none;
   padding: 10px;
+}
+
+/* Universal Styles */
+
+body {
+  margin: 0;
 }
 
 a {
   color: black;
+}
+
+/* Content */
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.large {
@@ -53,6 +75,22 @@ a {
   width: 240px;
 }
 
+.stories {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  display: block;
+}
+
 div {
+  display: block;
   border: 1px solid black;
 }
