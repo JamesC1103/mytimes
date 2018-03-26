@@ -1,0 +1,13 @@
+header, .logo-section, nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.logo-section {
+  flex-grow: 1;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px;
+}
