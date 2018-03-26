@@ -1,13 +1,24 @@
 header, .logo-section, nav ul {
   display: flex;
   align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .logo-section {
   flex-grow: 1;
 }
 
+.title {
+  color: MediumAquamarine;
+}
+
 nav ul li {
   list-style: none;
   padding: 10px;
+}
+
+a {
+  color: black;
 }
