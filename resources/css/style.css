@@ -18,7 +18,7 @@ header {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding-left; 30px;
+  padding-left: 30px;
 }
 
 .logo img {
@@ -79,12 +79,17 @@ a {
 .stories {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
+  margin-top: 17px;
+}
+
+.stories .text-content {
+  height: 250px;
 }
 
 .story {
   display: flex;
   flex-direction: column;
+  width: 300px
 }
 
 p {
@@ -93,7 +98,6 @@ p {
 
 div {
   display: block;
-  border: 1px solid black;
 }
 
 .narrative {
