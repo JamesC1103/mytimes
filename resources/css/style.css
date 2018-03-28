@@ -57,6 +57,15 @@ div {
   display: block;
 }
 
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+
 /* Content */
 
 .content {
@@ -110,6 +119,7 @@ div {
   background-size: cover;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: 300px;
   font-weight: bold;
   font-size: 30px;
@@ -122,10 +132,14 @@ div {
 
 .lead-story .image-content {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
-  width: 630px;
+  width: 630px;;
   margin-top: 0;
   font-size: 40px;
   text-align: left;
+}
+
+.lead-story .image-content span {
+    margin-left: 20px
 }
 
 .earth-image.image-content {
